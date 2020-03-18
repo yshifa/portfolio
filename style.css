@@ -48,3 +48,80 @@ body{
     width: 100%;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 30px;
+  }
+  
+  .card-header {
+    padding: .75rem 1.25rem;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.075);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+
+  .card-header h3{
+      font-weight: 700;
+      margin: 0;
+      padding-bottom: 5px;
+      color: #708090;
+  }
+
+  .card-header h5{
+      font-weight: 400;
+      color: #708090;
+      padding-bottom: 3px;
+  }
+  
+  .card-content {
+    padding: .25rem 1.25rem;
+    flex: 1 1 auto;
+  }
+  
+  h4 {
+    margin: 0;
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .job-title {
+    float: right;
+  }
+
+.contact h1{
+    margin-left: 55px;
+    margin-top: 20px;
+    color: #708090;
+    font-size: 40px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
